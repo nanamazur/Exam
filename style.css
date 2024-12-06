@@ -1,0 +1,126 @@
+body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #8D230F;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #1E434C;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #C99E10;
+    color: white;
+}
+
+section {
+    padding: 1rem 2rem;
+    background: white;
+    margin: 1rem 0;
+    background-image: url('bgpic.jpg');
+background-size: 100% auto;
+}
+
+article {
+    margin-bottom: 1rem;
+}
+
+article h2 {
+    color: #005792;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    padding: 0;
+    background: #1E434C;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    text-align:center;
+    border: 1px solid #595959;
+}
+
+table td, table th {
+    border: 1px solid #595959; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="reset"],
+select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    cursor: pointer;
+}
+
+textarea {
+    height: 100px;
+    width: 50%;
+}
+
+.bg{
+margin: 0;
+            padding: 0;
+            background-color: #C99E10;
+            background-size: cover; 
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+}
